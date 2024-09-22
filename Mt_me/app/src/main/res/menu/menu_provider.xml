@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_board"
+        android:icon="@drawable/board"
+        android:title="앱 평가" />
+    <item
+        android:id="@+id/item_setting"
+        android:icon="@drawable/setting"
+        android:title="설정"/>
+    <item
+        android:id="@+id/item_addmt"
+        android:icon="@drawable/addmt2"
+        android:title="내가 오른 산 추가"/>
+    <item
+        android:id="@+id/item_php"
+        android:icon="@drawable/recom"
+        android:title="산 추천 받기" />
+    <item
+        android:id="@+id/item_alarm"
+        android:icon="@drawable/graph"
+        android:title="나의 등산 월간 리포트" />
+    <item
+        android:id="@+id/item_youtube"
+        android:icon="@drawable/youtube"
+        android:title="안전 수칙 익히기" />
+    <item
+        android:id="@+id/item_map"
+        android:icon="@drawable/map"
+        android:title="내 위치 확인하기" />
+
+</menu>

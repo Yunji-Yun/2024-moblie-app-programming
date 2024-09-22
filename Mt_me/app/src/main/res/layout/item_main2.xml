@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:orientation="vertical"
+    android:paddingTop="10dp"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="식물 이름"
+        android:id="@+id/fskname"
+        android:textSize="30dp"
+        android:textColor="#06331C" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="식물 설명"
+        android:id="@+id/fsguide"
+        android:textSize="20dp"
+        android:textColor="#0FA958"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="상세 설명"
+        android:id="@+id/fslifetime"
+        android:textSize="20dp"
+        android:textColor="#06331C"/>
+</LinearLayout>

@@ -1,0 +1,41 @@
+<resources>
+    <!-- color -->
+    <string-array name="my_color">
+        <item>봄</item>
+        <item>여름</item>
+        <item>가을</item>
+        <item>겨울</item>
+    </string-array>
+
+    <string-array name="my_color_values">
+        <item>#FE9CD1</item>
+        <item>#0FA958</item>
+        <item>#E3442E</item>
+        <item>#6BAFFF</item>
+    </string-array>
+
+    <!-- color -->
+    <string-array name="my_size">
+        <item>글자 크기 작게</item>
+        <item>글자 크기 중간</item>
+        <item>글자 크기 크게</item>
+    </string-array>
+
+    <string-array name="my_size_values">
+        <item>12.0f</item>
+        <item>16.0f</item>
+        <item>20.0f</item>
+    </string-array>
+
+    <!-- visible -->
+    <string-array name="my_visible">
+        <item>App Title 나타내기</item>
+        <item>App Title 없애기</item>
+    </string-array>
+
+    <string-array name="my_visible_values">
+        <item>visible</item>
+        <item>gone</item>
+    </string-array>
+
+</resources>

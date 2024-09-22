@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 드로어 메뉴 추가 -->
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity">
+    <!-- fitsSystemWindows 폰에 맞춰서 출력되도록 -->
+    <!--1. 본 화면-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!-- 프래그먼트를 담는 뷰 페이저 -->
+        <!-- layout_weight="1" 탭이 보이도록 -->
+        <androidx.viewpager2.widget.ViewPager2
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:id="@+id/viewpager">
+        </androidx.viewpager2.widget.ViewPager2>
+        <!-- 뷰 페이저와 연결할 탭 버튼-->
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabs" />
+    </LinearLayout>
+    <!--2. 드로어 화면-->
+    <!-- layout_gravity="start" 시작 부분에서 끌려오도록 / end도 가능 -->
+    <!-- 머터리얼로 드로어 꾸미기(headerLayout, menu) -->
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:gravity="center"
+        android:fitsSystemWindows="true"
+        android:id="@+id/mainDrawerView"
+        app:headerLayout="@layout/navigation_header"
+        app:menu="@menu/menu_navigation"/>
+</androidx.drawerlayout.widget.DrawerLayout>

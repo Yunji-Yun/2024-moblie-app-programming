@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mt_me</string>
+    <string name="drawaer_opened">Opened Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+    <string name="default_client_id">34544266860-8t2nml1hi4frvoldkmpgkn19ouktl9jp.apps.googleusercontent.com</string>
+    <string name="naver_client_id">WlzAiZDen03C4PyapDBZ</string>
+    <string name="naver_client_secret">R9KK0nC0_Q</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

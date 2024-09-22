@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="app.ch6_view">
+        <State />
+      </entry>
+      <entry key="ch10_dialog">
+        <State />
+      </entry>
+      <entry key="ch11_jetpack">
+        <State />
+      </entry>
+      <entry key="ch13_activity">
+        <State />
+      </entry>
+      <entry key="ch6_view">
+        <State />
+      </entry>
+      <entry key="ch7_layout">
+        <State />
+      </entry>
+      <entry key="ch8_event">
+        <State />
+      </entry>
+      <entry key="ch9_resource">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
